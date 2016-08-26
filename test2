@@ -1,0 +1,8 @@
+
+# closures example 
+
+s = lambda c: lambda n: n + c
+
+s40 = s(40)
+
+print s40(80), s(40)(40)
